@@ -22,5 +22,5 @@
         </tbody>
     </table>
 
-    <app-candidatos-detail *ngIf="candidatoSeleccionado" [candidato]="candidatoSeleccionado"></app-candidatos-detail>
+    <router-outlet *ngIf="candidatoSeleccionado" [candidato]="candidatoSeleccionado"></router-outlet>
 </div>
